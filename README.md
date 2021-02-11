@@ -1,1 +1,1 @@
-## Nothing interested in this repository.
+## Nothing outstanding in this repository.
