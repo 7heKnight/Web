@@ -1,0 +1,31 @@
+header {
+    background-color: #a2a1a1;
+    text-align: center;
+}
+header h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    color: yellow;
+}
+header nav a{
+    color: black;
+    background-color: #737373;
+    font-size: large;
+}
+
+.left img {
+    display: none;
+}
+.right {
+    font-size: larger;
+    background-color: #a2a1a1;
+}
+.right h2{
+    color: #727272;
+}
+.right table{
+    margin-left: 30%;
+}
+.right table tr th{
+    background-color: #fafa8e;
+}
