@@ -1,0 +1,114 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*Header*/
+header{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+header a:first-child{
+    float: left;
+    margin-left: 2%;
+}
+header a:nth-child(2){
+    margin-left: 75%;
+}
+/*Body*/
+body{
+    width: 100%;
+    height: 60%;
+}
+
+    /*Left*/
+.left{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    height: 30%;
+}
+.left li{
+    list-style: none;
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+.left li:hover {
+    background: #ff9933;
+}
+.left li:first-letter{
+    text-transform: uppercase;
+}
+
+    /*Middle*/
+.middle img{
+    display: inline-block;
+    width: 78%;
+    height: 30%;
+}
+
+    /*Right*/
+.right {
+    display: block;
+    text-align: center;
+
+}
+.right div{
+    display: inline-block;
+    margin-left: 5%;
+    width: 255px;
+    height: 20%;
+    justify-content: center;
+}
+.right div p span{
+    font-weight: bold;
+    font-size: x-large;
+}
+@media only screen and (max-width: 768px) {
+    .left{
+        width: 100%;
+        height: 15%;
+        display: inline-block;
+        background-color: #fe9a34;
+    }
+    .left li{
+        float: left;
+        text-decoration: underline;
+        font-size: large;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        margin-left: 2%;
+    }
+    .middle{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .right div{
+        width: 95%;
+        display: block;
+        text-align: center;
+    }
+    .right div p:last-child{
+        width: 50%;
+        margin-left: 20%;
+    }
+    .right div p span{
+        font-size: xx-large;
+    }
+}
+
+
+
+/*Footer*/
+footer{
+    float: bottom;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
