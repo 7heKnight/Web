@@ -1,0 +1,129 @@
+.row{
+    width: 65%;
+    margin-bottom: 150px;
+    margin-left: 20%;
+    margin-top: 25px;
+}
+.row img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.top{
+    text-align: center;
+}
+
+section h2 {
+    color: #647eff;
+}
+header {
+    background-color: #008a7b;
+    text-align: center;
+    padding: 5px 30px 40px 30px;
+}
+header h1 {
+    text-transform: uppercase;
+    color: #f17218;
+    padding: 1px 1px 30px 1px;
+    float: left;
+}
+
+header nav a {
+    text-decoration: none;
+    background-color: #80c5bd;
+    color: rgb(0, 0, 0);
+    padding: 15px 60px 15px 60px;
+    margin: 20px 30px auto;
+    border: 10px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    float: right;
+}
+
+.active {
+    background-color: #ffcca4;
+}
+
+#team {
+    background-color: #ff9966;
+    display: none;
+}
+#team tr th {
+    background-color: #ff6600;
+}
+#showmore {
+    color:#647eff;
+}
+#myform {
+    background-color: #ffff99;
+    width: 670px;
+    float: right;
+    display: none;
+}
+section  table {
+    display: inline-block;
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    border: 1px solid #333;
+    padding: 10px;
+    overflow: auto;
+}
+
+#post {
+    width: 660px;
+    height: 150px;
+    background: #e8e8e8;
+    float: left;
+}
+
+#sidebar {
+    width: 300px;
+    height: 150px;
+    background: #b1b1b1;
+    float: right;
+}
+.link{
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    background-color: #a5f84a;
+    padding: 10px;
+}
+.aboutme{
+    margin-left: 40%;
+}
+.howtogrow{
+    display: inline-block;
+}
+.howtogrow p{
+    display: block;
+    float: left;
+    margin-right: 4%;
+    width: 12%;
+    height: 50%;
+}
+
+.howtogrow p::first-letter{
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#frame{
+    display: block;
+    height: 350px;
+    width: 350px;
+    margin-left: 40%;
+    background-color: #647eff;
+    background-size: 100% 100%;
+}
+

@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+}
+body, html {
+    height: 100%;
+}
+
+/*Body*/
+body header{
+    display: inline-block;
+    background-color: #003200;
+    width: 100%;
+    height: auto;
+}
+.link{
+    background-color: yellow;
+    padding: 5px 10px 5px 10px;
+    margin: 40px 1px 5px 5px;
+    border-radius: 10px;
+    float: right;
+}
+.link a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+/*Main*/
+    /*How To Grow*/
+	
+.howtogrow{
+    display: flex;
+    height: 50%;
+    width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.howtogrow p{
+    display: block;
+    float: left;
+    height: 90%;
+    width: 14%;
+    margin-right: 10px;
+    margin-left: 12px;
+    border: 4px solid green;
+    border-radius: 10px;
+    padding: 10px;
+}
+.howtogrow p:nth-child(5), p:nth-child(4){
+	display:none;
+}
+
+    /*About Me*/
+        /*Nothing to do*/
+
+    /*Portfolio*/
+
+section {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+	margin-top: 2%;
+}
+
+#frame{
+    display: inline-block;
+    width: 70%;
+    height: 130%;
+    margin:  20px 20% 20px 20%;
+    border: 1px solid #000000;
+    background-color: #6bcbc1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.row{
+    display: inline-block;
+    width: 60%;
+    float: right;
+}
+.row img{
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+}
+
+
+/*Footer*/
+footer{
+    width:100%;
+    background-color: green;
+}
+footer p:first-child{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}footer p:last-child{
+     text-align: center;
+     padding-bottom: 20px;
+     color: white;
+ }
+ footer p:first-child a{
+    color: blue;
+}
+footer p:last-child a{
+    color: purple;
+}
